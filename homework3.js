@@ -4,10 +4,6 @@ function f (num){
     return false;
   }
   return num < 10? true : f( (num-num%10)/10 );
- /* if(num < 10 ){
-    return true;
-  }
-  return f((num-num%10)/10);*/
 }
 
 console.log(f(7913));
